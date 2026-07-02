@@ -1,0 +1,596 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - navigation [ref=e6]:
+        - generic [ref=e9]:
+          - list [ref=e11]:
+            - listitem [ref=e12]:
+              - generic [ref=e13] [cursor=pointer]: Agences
+            - listitem [ref=e14]:
+              - generic [ref=e15] [cursor=pointer]: Véhicules
+            - listitem [ref=e16]:
+              - generic [ref=e17] [cursor=pointer]: Nos services
+            - listitem [ref=e18]:
+              - generic [ref=e19] [cursor=pointer]: Espace pro
+            - listitem [ref=e20]:
+              - generic [ref=e21] [cursor=pointer]: Aide
+            - listitem [ref=e22]:
+              - generic [ref=e23] [cursor=pointer]: Ma location
+          - button [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+          - img "100% France" [ref=e45]
+          - button "Me connecter" [ref=e46] [cursor=pointer]
+    - generic [ref=e47]:
+      - generic [ref=e51]:
+        - link "Accueil" [ref=e52] [cursor=pointer]:
+          - /url: https://www.rentacar.fr/
+        - generic [ref=e53]: ">"
+        - paragraph [ref=e54]: Meilleurs loueurs à Paris
+      - generic [ref=e55]:
+        - generic [ref=e58]:
+          - heading "Quels sont les meilleurs loueurs de voiture à Paris ?" [level=1] [ref=e60]
+          - generic [ref=e65]:
+            - generic [ref=e68]:
+              - button "Picture of car Voitures" [ref=e69] [cursor=pointer]:
+                - generic [ref=e70]:
+                  - img "Picture of car" [ref=e72]
+                  - generic [ref=e73]: Voitures
+              - button "Picture of truck Utilitaires" [ref=e75] [cursor=pointer]:
+                - generic [ref=e76]:
+                  - img "Picture of truck" [ref=e78]
+                  - generic [ref=e79]: Utilitaires
+              - button "Picture of car without licence Sans permis" [ref=e81] [cursor=pointer]:
+                - generic [ref=e82]:
+                  - img "Picture of car without licence" [ref=e84]
+                  - generic [ref=e85]: Sans permis
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - checkbox "Restituer le véhicule dans une agence différente" [ref=e90] [cursor=pointer]
+                - img
+              - generic [ref=e91]: Restituer le véhicule dans une agence différente
+            - generic [ref=e92]:
+              - combobox [ref=e96]:
+                - generic [ref=e97]:
+                  - generic:
+                    - img
+                  - searchbox "Adresse de départ et de retour" [ref=e98]
+              - generic [ref=e99]:
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - generic:
+                      - img
+                    - textbox "Date de départ" [ref=e103]
+                  - textbox "Heure" [ref=e105]
+                - generic [ref=e107]:
+                  - generic [ref=e108]:
+                    - generic:
+                      - img
+                    - textbox "Date de retour" [ref=e109]
+                  - textbox "Heure" [ref=e111]
+              - button "Rechercher" [ref=e114] [cursor=pointer]
+        - generic [ref=e116]:
+          - img "guide-demarche-location.jpg" [ref=e119]
+          - generic [ref=e120]:
+            - paragraph [ref=e121]:
+              - img "Camille Laurent" [ref=e122]
+              - generic [ref=e123]:
+                - text: Par
+                - link "Camille Laurent" [ref=e124] [cursor=pointer]:
+                  - /url: auteur/
+              - generic [ref=e125]: •
+              - generic [ref=e126]: Mis à jour le 30 juin 2026
+              - generic [ref=e127]: •
+              - generic [ref=e128]: 5 min de lecture
+            - generic [ref=e129]:
+              - heading "En bref" [level=2] [ref=e130]
+              - list [ref=e131]:
+                - listitem [ref=e132]:
+                  - strong [ref=e133]: Rent A Car est notre n°1 à Paris (4,7/5)
+                  - text: pour sa proximité (agences en ville et près des gares) et ses tarifs, devant Europcar et Sixt.
+                - listitem [ref=e134]:
+                  - text: « Location voiture Paris » pèse environ
+                  - strong [ref=e135]: 12 100 recherches par mois
+                  - text: ": la concurrence entre loueurs y est intense."
+                - listitem [ref=e136]:
+                  - text: Les
+                  - strong [ref=e137]: réseaux internationaux
+                  - text: (Europcar, Sixt, Hertz, Avis) dominent les aéroports et le premium ; les
+                  - strong [ref=e138]: acteurs de proximité
+                  - text: (Rent A Car, ADA) gagnent sur le prix et le centre-ville.
+                - listitem [ref=e139]: "Notre méthode : proximité des agences, transparence des prix, choix de véhicules (tourisme et utilitaires), flexibilité et avis clients."
+                - listitem [ref=e140]:
+                  - text: Pour un besoin local et un budget maîtrisé,
+                  - strong [ref=e141]: Rent A Car offre le meilleur rapport proximité/prix
+                  - text: de ce classement.
+            - navigation "Sommaire" [ref=e142]:
+              - heading "Sommaire" [level=2] [ref=e143]
+              - list [ref=e144]:
+                - listitem [ref=e145]:
+                  - link "Le classement à Paris" [ref=e146] [cursor=pointer]:
+                    - /url: "#classement"
+                - listitem [ref=e147]:
+                  - link "1. Rent A Car" [ref=e148] [cursor=pointer]:
+                    - /url: "#rent-a-car"
+                - listitem [ref=e149]:
+                  - link "2. Europcar" [ref=e150] [cursor=pointer]:
+                    - /url: "#europcar"
+                - listitem [ref=e151]:
+                  - link "3. Sixt" [ref=e152] [cursor=pointer]:
+                    - /url: "#sixt"
+                - listitem [ref=e153]:
+                  - link "4. Hertz" [ref=e154] [cursor=pointer]:
+                    - /url: "#hertz"
+                - listitem [ref=e155]:
+                  - link "5. Avis" [ref=e156] [cursor=pointer]:
+                    - /url: "#avis"
+                - listitem [ref=e157]:
+                  - link "6. Enterprise" [ref=e158] [cursor=pointer]:
+                    - /url: "#enterprise"
+                - listitem [ref=e159]:
+                  - link "7. ADA" [ref=e160] [cursor=pointer]:
+                    - /url: "#ada"
+                - listitem [ref=e161]:
+                  - link "8. Ucar" [ref=e162] [cursor=pointer]:
+                    - /url: "#ucar"
+                - listitem [ref=e163]:
+                  - link "Comment choisir ?" [ref=e164] [cursor=pointer]:
+                    - /url: "#choisir"
+                - listitem [ref=e165]:
+                  - link "Ce qu'il faut savoir" [ref=e166] [cursor=pointer]:
+                    - /url: "#savoir"
+                - listitem [ref=e167]:
+                  - link "Questions fréquentes" [ref=e168] [cursor=pointer]:
+                    - /url: "#faq"
+          - generic [ref=e169]:
+            - heading [level=2]
+            - paragraph [ref=e171]:
+              - text: "Trouver le bon loueur à Paris n'est pas évident : entre les grands réseaux internationaux, les acteurs de proximité et les formules low-cost, les écarts de prix et de service sont importants. Voici notre classement des meilleurs loueurs de voiture à Paris, avec les points forts de chacun. En tête :"
+              - strong [ref=e172]: Rent A Car
+              - text: ", pour son maillage d'agences et son positionnement « + proche, - cher »."
+          - generic [ref=e173]:
+            - heading "Le classement des meilleurs loueurs de voiture à Paris" [level=2] [ref=e174]
+            - table [ref=e175]:
+              - rowgroup [ref=e176]:
+                - row "Rang Loueur Type Note globale Tarif" [ref=e177]:
+                  - columnheader "Rang" [ref=e178]
+                  - columnheader "Loueur" [ref=e179]
+                  - columnheader "Type" [ref=e180]
+                  - columnheader "Note globale" [ref=e181]
+                  - columnheader "Tarif" [ref=e182]
+              - rowgroup [ref=e183]:
+                - row "1 Logo Rent A CarRent A Car Proximité ★★★★★ ★★★★★ 4,7/5 €€" [ref=e184]:
+                  - cell "1" [ref=e185]
+                  - cell "Logo Rent A CarRent A Car" [ref=e186]:
+                    - img "Logo Rent A Car" [ref=e187]
+                    - text: Rent A Car
+                  - cell "Proximité" [ref=e188]
+                  - cell "★★★★★ ★★★★★ 4,7/5" [ref=e189]:
+                    - generic [ref=e190]:
+                      - text: ★★★★★
+                      - generic [ref=e191]: ★★★★★
+                    - text: 4,7/5
+                  - cell "€€" [ref=e192]
+                - row "2 Logo EuropcarEuropcar International ★★★★★ ★★★★★ 4,4/5 €€€" [ref=e193]:
+                  - cell "2" [ref=e194]
+                  - cell "Logo EuropcarEuropcar" [ref=e195]:
+                    - img "Logo Europcar" [ref=e196]
+                    - text: Europcar
+                  - cell "International" [ref=e197]
+                  - cell "★★★★★ ★★★★★ 4,4/5" [ref=e198]:
+                    - generic [ref=e199]:
+                      - text: ★★★★★
+                      - generic [ref=e200]: ★★★★★
+                    - text: 4,4/5
+                  - cell "€€€" [ref=e201]
+                - row "3 Logo SixtSixt Premium ★★★★★ ★★★★★ 4,3/5 €€€" [ref=e202]:
+                  - cell "3" [ref=e203]
+                  - cell "Logo SixtSixt" [ref=e204]:
+                    - img "Logo Sixt" [ref=e205]
+                    - text: Sixt
+                  - cell "Premium" [ref=e206]
+                  - cell "★★★★★ ★★★★★ 4,3/5" [ref=e207]:
+                    - generic [ref=e208]:
+                      - text: ★★★★★
+                      - generic [ref=e209]: ★★★★★
+                    - text: 4,3/5
+                  - cell "€€€" [ref=e210]
+                - row "4 Logo HertzHertz International ★★★★★ ★★★★★ 4,2/5 €€€" [ref=e211]:
+                  - cell "4" [ref=e212]
+                  - cell "Logo HertzHertz" [ref=e213]:
+                    - img "Logo Hertz" [ref=e214]
+                    - text: Hertz
+                  - cell "International" [ref=e215]
+                  - cell "★★★★★ ★★★★★ 4,2/5" [ref=e216]:
+                    - generic [ref=e217]:
+                      - text: ★★★★★
+                      - generic [ref=e218]: ★★★★★
+                    - text: 4,2/5
+                  - cell "€€€" [ref=e219]
+                - row "5 Logo AvisAvis International ★★★★★ ★★★★★ 4,1/5 €€€" [ref=e220]:
+                  - cell "5" [ref=e221]
+                  - cell "Logo AvisAvis" [ref=e222]:
+                    - img "Logo Avis" [ref=e223]
+                    - text: Avis
+                  - cell "International" [ref=e224]
+                  - cell "★★★★★ ★★★★★ 4,1/5" [ref=e225]:
+                    - generic [ref=e226]:
+                      - text: ★★★★★
+                      - generic [ref=e227]: ★★★★★
+                    - text: 4,1/5
+                  - cell "€€€" [ref=e228]
+                - row "6 Logo EnterpriseEnterprise Service ★★★★★ ★★★★★ 4,0/5 €€" [ref=e229]:
+                  - cell "6" [ref=e230]
+                  - cell "Logo EnterpriseEnterprise" [ref=e231]:
+                    - img "Logo Enterprise" [ref=e232]
+                    - text: Enterprise
+                  - cell "Service" [ref=e233]
+                  - cell "★★★★★ ★★★★★ 4,0/5" [ref=e234]:
+                    - generic [ref=e235]:
+                      - text: ★★★★★
+                      - generic [ref=e236]: ★★★★★
+                    - text: 4,0/5
+                  - cell "€€" [ref=e237]
+                - row "7 Logo ADAADA Low-cost ★★★★★ ★★★★★ 3,8/5 €" [ref=e238]:
+                  - cell "7" [ref=e239]
+                  - cell "Logo ADAADA" [ref=e240]:
+                    - img "Logo ADA" [ref=e241]
+                    - text: ADA
+                  - cell "Low-cost" [ref=e242]
+                  - cell "★★★★★ ★★★★★ 3,8/5" [ref=e243]:
+                    - generic [ref=e244]:
+                      - text: ★★★★★
+                      - generic [ref=e245]: ★★★★★
+                    - text: 3,8/5
+                  - cell "€" [ref=e246]
+                - row "8 Logo UcarUcar Abonnement ★★★★★ ★★★★★ 3,6/5 €€" [ref=e247]:
+                  - cell "8" [ref=e248]
+                  - cell "Logo UcarUcar" [ref=e249]:
+                    - img "Logo Ucar" [ref=e250]
+                    - text: Ucar
+                  - cell "Abonnement" [ref=e251]
+                  - cell "★★★★★ ★★★★★ 3,6/5" [ref=e252]:
+                    - generic [ref=e253]:
+                      - text: ★★★★★
+                      - generic [ref=e254]: ★★★★★
+                    - text: 3,6/5
+                  - cell "€€" [ref=e255]
+          - generic [ref=e256]:
+            - heading "1. Rent A Car" [level=2] [ref=e257]
+            - generic [ref=e258]:
+              - img "Logo Rent A Car" [ref=e260]
+              - paragraph [ref=e261]:
+                - text: "Note globale :"
+                - generic [ref=e262]:
+                  - text: ★★★★★
+                  - generic [ref=e263]: ★★★★★
+                - text: 4,7/5
+              - paragraph [ref=e264]: Rent A Car décroche la première place de notre classement à Paris. Acteur français de la location de proximité, il aligne des agences en ville et à quelques minutes des grandes gares, fidèle à sa signature « + proche, - cher ». Un positionnement rare face aux géants internationaux concentrés sur les aéroports.
+              - generic [ref=e265]:
+                - generic [ref=e266]:
+                  - heading "Points forts" [level=4] [ref=e267]
+                  - list [ref=e268]:
+                    - listitem [ref=e269]: + De nombreuses agences en ville et près des gares parisiennes
+                    - listitem [ref=e270]: + Tarifs parmi les plus compétitifs du marché
+                    - listitem [ref=e271]:
+                      - text: + Voitures de tourisme
+                      - strong [ref=e272]: et
+                      - text: utilitaires (déménagement)
+                    - listitem [ref=e273]: + Offre courte et moyenne durée, sans engagement
+                    - listitem [ref=e274]: + Réservation en ligne simple et rapide
+                - generic [ref=e275]:
+                  - heading "Points faibles" [level=4] [ref=e276]
+                  - list [ref=e277]:
+                    - listitem [ref=e278]: – Moins présent dans les aéroports que les leaders internationaux
+                    - listitem [ref=e279]: – Flotte moins « premium » que Sixt ou Hertz
+              - paragraph [ref=e280]: "Idéal pour : une location locale à petit budget, en courte durée, ou un utilitaire pour déménager."
+            - heading "2. Europcar" [level=2] [ref=e281]
+            - generic [ref=e282]:
+              - img "Logo Europcar" [ref=e284]
+              - paragraph [ref=e285]:
+                - text: "Note globale :"
+                - generic [ref=e286]:
+                  - text: ★★★★★
+                  - generic [ref=e287]: ★★★★★
+                - text: 4,4/5
+              - paragraph [ref=e288]: Europcar est l'un des leaders mondiaux de la location. À Paris, il s'appuie sur un réseau très dense et une flotte étendue, avec une forte présence dans les gares et les aéroports.
+              - generic [ref=e289]:
+                - generic [ref=e290]:
+                  - heading "Points forts" [level=4] [ref=e291]
+                  - list [ref=e292]:
+                    - listitem [ref=e293]: + Réseau très large à Paris (ville, gares, aéroports)
+                    - listitem [ref=e294]: + Flotte étendue, toutes catégories
+                    - listitem [ref=e295]: + Options longue durée et professionnelles
+                - generic [ref=e296]:
+                  - heading "Points faibles" [level=4] [ref=e297]
+                  - list [ref=e298]:
+                    - listitem [ref=e299]: – Tarifs de base parfois élevés en période de pointe
+                    - listitem [ref=e300]: – Frais additionnels à surveiller
+              - paragraph [ref=e301]: "Idéal pour : les trajets longue distance et les déplacements professionnels."
+            - heading "3. Sixt" [level=2] [ref=e302]
+            - generic [ref=e303]:
+              - img "Logo Sixt" [ref=e305]
+              - paragraph [ref=e306]:
+                - text: "Note globale :"
+                - generic [ref=e307]:
+                  - text: ★★★★★
+                  - generic [ref=e308]: ★★★★★
+                - text: 4,3/5
+              - paragraph [ref=e309]: Sixt mise sur le premium. À Paris, l'enseigne se distingue par une flotte récente et souvent haut de gamme, avec de nombreuses berlines et SUV, notamment au départ des aéroports.
+              - generic [ref=e310]:
+                - generic [ref=e311]:
+                  - heading "Points forts" [level=4] [ref=e312]
+                  - list [ref=e313]:
+                    - listitem [ref=e314]: + Flotte récente et haut de gamme
+                    - listitem [ref=e315]: + Nombreux véhicules premium (berlines, SUV)
+                    - listitem [ref=e316]: + Bonne présence en aéroport
+                - generic [ref=e317]:
+                  - heading "Points faibles" [level=4] [ref=e318]
+                  - list [ref=e319]:
+                    - listitem [ref=e320]: – Positionnement tarifaire élevé
+                    - listitem [ref=e321]: – Caution souvent importante sur le premium
+              - paragraph [ref=e322]: "Idéal pour : un véhicule statutaire pour un rendez-vous professionnel ou une occasion."
+            - heading "4. Hertz" [level=2] [ref=e323]
+            - generic [ref=e324]:
+              - img "Logo Hertz" [ref=e326]
+              - paragraph [ref=e327]:
+                - text: "Note globale :"
+                - generic [ref=e328]:
+                  - text: ★★★★★
+                  - generic [ref=e329]: ★★★★★
+                - text: 4,2/5
+              - paragraph [ref=e330]: Hertz dispose d'un réseau international reconnu et de comptoirs bien implantés dans les aéroports parisiens (Roissy-CDG, Orly).
+              - generic [ref=e331]:
+                - generic [ref=e332]:
+                  - heading "Points forts" [level=4] [ref=e333]
+                  - list [ref=e334]:
+                    - listitem [ref=e335]: + Comptoirs dans les aéroports parisiens
+                    - listitem [ref=e336]: + Programme de fidélité intéressant
+                    - listitem [ref=e337]: + Large choix de catégories
+                - generic [ref=e338]:
+                  - heading "Points faibles" [level=4] [ref=e339]
+                  - list [ref=e340]:
+                    - listitem [ref=e341]: – Tarifs aéroport élevés
+                    - listitem [ref=e342]: – Moins d'agences en centre-ville
+              - paragraph [ref=e343]: "Idéal pour : une arrivée en avion à Paris."
+            - heading "5. Avis" [level=2] [ref=e344]
+            - generic [ref=e345]:
+              - img "Logo Avis" [ref=e347]
+              - paragraph [ref=e348]:
+                - text: "Note globale :"
+                - generic [ref=e349]:
+                  - text: ★★★★★
+                  - generic [ref=e350]: ★★★★★
+                - text: 4,1/5
+              - paragraph [ref=e351]: Avis complète le trio des grands réseaux internationaux, avec des agences dans les gares et aéroports parisiens et une bonne couverture multi-sites.
+              - generic [ref=e352]:
+                - generic [ref=e353]:
+                  - heading "Points forts" [level=4] [ref=e354]
+                  - list [ref=e355]:
+                    - listitem [ref=e356]: + Présence gares et aéroports
+                    - listitem [ref=e357]: + Couverture multi-sites (aller simple)
+                    - listitem [ref=e358]: + Réservation fluide
+                - generic [ref=e359]:
+                  - heading "Points faibles" [level=4] [ref=e360]
+                  - list [ref=e361]:
+                    - listitem [ref=e362]: – Prix variables selon l'agence
+                    - listitem [ref=e363]: – Frais one-way parfois élevés
+              - paragraph [ref=e364]: "Idéal pour : des trajets multi-villes avec restitution ailleurs qu'au départ."
+            - heading "6. Enterprise" [level=2] [ref=e365]
+            - generic [ref=e366]:
+              - img "Logo Enterprise" [ref=e368]
+              - paragraph [ref=e369]:
+                - text: "Note globale :"
+                - generic [ref=e370]:
+                  - text: ★★★★★
+                  - generic [ref=e371]: ★★★★★
+                - text: 4,0/5
+              - paragraph [ref=e372]: Enterprise s'est bâti une réputation sur la qualité de son service client. À Paris, l'enseigne dispose d'agences en ville en plus des points aéroports.
+              - generic [ref=e373]:
+                - generic [ref=e374]:
+                  - heading "Points forts" [level=4] [ref=e375]
+                  - list [ref=e376]:
+                    - listitem [ref=e377]: + Service client réputé
+                    - listitem [ref=e378]: + Agences en ville et prise en charge soignée
+                    - listitem [ref=e379]: + Véhicule de remplacement
+                - generic [ref=e380]:
+                  - heading "Points faibles" [level=4] [ref=e381]
+                  - list [ref=e382]:
+                    - listitem [ref=e383]: – Réseau plus récent en France
+                    - listitem [ref=e384]: – Notoriété grand public plus faible
+              - paragraph [ref=e385]: "Idéal pour : qui recherche un accompagnement soigné, y compris en remplacement."
+            - heading "7. ADA" [level=2] [ref=e386]
+            - generic [ref=e387]:
+              - img "Logo ADA" [ref=e389]
+              - paragraph [ref=e390]:
+                - text: "Note globale :"
+                - generic [ref=e391]:
+                  - text: ★★★★★
+                  - generic [ref=e392]: ★★★★★
+                - text: 3,8/5
+              - paragraph [ref=e393]: ADA est un loueur de proximité positionné sur le low-cost. Il s'adresse avant tout aux petits budgets pour des locations ponctuelles à Paris.
+              - generic [ref=e394]:
+                - generic [ref=e395]:
+                  - heading "Points forts" [level=4] [ref=e396]
+                  - list [ref=e397]:
+                    - listitem [ref=e398]: + Tarifs low-cost
+                    - listitem [ref=e399]: + Agences de proximité
+                    - listitem [ref=e400]: + Offre voiture et utilitaire
+                - generic [ref=e401]:
+                  - heading "Points faibles" [level=4] [ref=e402]
+                  - list [ref=e403]:
+                    - listitem [ref=e404]: – Flotte plus limitée
+                    - listitem [ref=e405]: – Réseau plus restreint à Paris
+              - paragraph [ref=e406]: "Idéal pour : les petits budgets pour un besoin ponctuel."
+            - heading "8. Ucar" [level=2] [ref=e407]
+            - generic [ref=e408]:
+              - img "Logo Ucar" [ref=e410]
+              - paragraph [ref=e411]:
+                - text: "Note globale :"
+                - generic [ref=e412]:
+                  - text: ★★★★★
+                  - generic [ref=e413]: ★★★★★
+                - text: 3,6/5
+              - paragraph [ref=e414]: Ucar se distingue par ses formules par forfait et par abonnement, pensées pour un usage régulier plutôt que ponctuel.
+              - generic [ref=e415]:
+                - generic [ref=e416]:
+                  - heading "Points forts" [level=4] [ref=e417]
+                  - list [ref=e418]:
+                    - listitem [ref=e419]: + Formules par forfait et abonnement
+                    - listitem [ref=e420]: + Adapté à l'usage régulier
+                    - listitem [ref=e421]: + Alternative à l'achat
+                - generic [ref=e422]:
+                  - heading "Points faibles" [level=4] [ref=e423]
+                  - list [ref=e424]:
+                    - listitem [ref=e425]: – Moins pertinent pour un besoin ponctuel
+                    - listitem [ref=e426]: – Réseau plus limité
+              - paragraph [ref=e427]: "Idéal pour : un usage récurrent d'un véhicule sur la durée."
+            - heading "Comment choisir son loueur de voiture à Paris ?" [level=2] [ref=e428]
+            - generic [ref=e429]:
+              - paragraph [ref=e430]: Le meilleur loueur dépend surtout de votre besoin. Voici les critères qui font vraiment la différence à Paris.
+              - heading "La proximité de l'agence" [level=3] [ref=e431]
+              - paragraph [ref=e432]: À Paris, une agence proche de chez vous ou de votre gare d'arrivée vous fait gagner un temps précieux. C'est le point fort des acteurs de proximité comme Rent A Car, quand les géants se concentrent sur les aéroports.
+              - heading "Le prix et les frais cachés" [level=3] [ref=e433]
+              - paragraph [ref=e434]: "Comparez le tarif total, pas seulement le prix d'appel : kilométrage, assurance de base, second conducteur, frais de restitution. Un tarif clair vaut mieux qu'une promotion assortie de suppléments."
+              - heading "Le type de véhicule" [level=3] [ref=e435]
+              - paragraph [ref=e436]: "Citadine pour circuler dans Paris, berline ou SUV pour un long trajet, utilitaire pour un déménagement : vérifiez que le loueur propose la bonne catégorie disponible à vos dates."
+              - heading "Assurance, caution et conditions" [level=3] [ref=e437]
+              - paragraph [ref=e438]: Regardez le niveau d'assurance inclus, le montant de la caution bloquée et les conditions (âge, ancienneté du permis). Ces éléments varient fortement d'un loueur à l'autre.
+            - heading "Ce qu'il faut savoir avant de louer à Paris" [level=2] [ref=e439]
+            - generic [ref=e440]:
+              - paragraph [ref=e441]: Quelques repères pour éviter les mauvaises surprises le jour du départ.
+              - heading "Documents et conditions" [level=3] [ref=e442]
+              - paragraph [ref=e443]: Prévoyez une pièce d'identité, un permis de conduire valide (souvent 1 à 3 ans d'ancienneté minimum) et une carte bancaire au nom du conducteur pour la caution.
+              - heading "Dépôt de garantie" [level=3] [ref=e444]
+              - paragraph [ref=e445]: Une caution est bloquée sur la carte le temps de la location, puis restituée. Son montant dépend de la catégorie de véhicule.
+              - heading "Réserver à l'avance" [level=3] [ref=e446]
+              - paragraph [ref=e447]: À Paris, la demande est forte et les tarifs montent à l'approche de la date. Réserver tôt garantit un meilleur prix et plus de choix.
+    - generic [ref=e449]:
+      - generic [ref=e450]:
+        - heading "Questions fréquentes" [level=2] [ref=e451]
+        - heading "Quel est le meilleur loueur de voiture à Paris ?" [level=3] [ref=e452]
+        - paragraph [ref=e453]: Pour un usage local et un bon rapport qualité-prix, Rent A Car arrive en tête grâce à ses agences de proximité et ses tarifs. Les réseaux internationaux (Europcar, Sixt, Hertz) restent de bonnes options pour le premium et les aéroports.
+        - heading "Quel est le loueur le moins cher à Paris ?" [level=3] [ref=e454]
+        - paragraph [ref=e455]: Les acteurs de proximité comme Rent A Car et ADA proposent généralement les tarifs les plus abordables, surtout en courte durée. Le prix final dépend de la période, du véhicule et des options.
+        - heading "Où louer une voiture près d'une gare parisienne ?" [level=3] [ref=e456]
+        - paragraph [ref=e457]: Rent A Car dispose d'agences proches des grandes gares et en centre-ville. Europcar et Avis sont eux aussi présents en gare et en aéroport.
+        - heading "Peut-on louer un utilitaire pour déménager à Paris ?" [level=3] [ref=e458]
+        - paragraph [ref=e459]: Oui. Rent A Car et ADA proposent des utilitaires de plusieurs volumes, adaptés à un déménagement à Paris, à réserver de préférence à l'avance.
+        - heading "Faut-il réserver sa voiture à l'avance à Paris ?" [level=3] [ref=e460]
+        - paragraph [ref=e461]: "Oui, c'est vivement recommandé : la demande est forte et les tarifs augmentent à l'approche de la date. Réserver tôt garantit un meilleur prix et plus de choix."
+        - heading "Quels documents et quelle caution pour louer à Paris ?" [level=3] [ref=e462]
+        - paragraph [ref=e463]: Une pièce d'identité, un permis valide et une carte bancaire au nom du conducteur sont demandés. Une caution est bloquée sur la carte pendant la location puis restituée au retour du véhicule.
+      - generic [ref=e465]:
+        - img "Camille Laurent" [ref=e466]
+        - generic [ref=e467]:
+          - heading "Camille Laurent" [level=3] [ref=e468]
+          - paragraph [ref=e469]: Rédactrice spécialisée mobilité & location de véhicules
+          - paragraph [ref=e470]: Camille rédige depuis plus de dix ans des contenus sur la location de voitures et d'utilitaires. Elle aide les conducteurs, du jeune permis au professionnel, à comprendre les démarches d'une location et à louer sans mauvaise surprise.
+          - link "Lire la biographie complète de l'auteur →" [ref=e471] [cursor=pointer]:
+            - /url: auteur/
+      - generic [ref=e476]:
+        - generic [ref=e477]:
+          - img "shield.svg" [ref=e479]
+          - paragraph [ref=e480]: Paiement 100% sécurisé
+          - paragraph [ref=e481]: Réservez en toute sécurité
+        - button "Logo 48h.svg Annulation gratuite Voir nos conditions" [ref=e482] [cursor=pointer]:
+          - generic [ref=e483]:
+            - img "Logo 48h.svg" [ref=e485]
+            - paragraph [ref=e486]: Annulation gratuite
+            - paragraph [ref=e487]: Voir nos conditions
+        - button "questions.svg Besoin d’aide ? Nous répondons à vos questions" [ref=e488] [cursor=pointer]:
+          - generic [ref=e489]:
+            - img "questions.svg" [ref=e491]
+            - paragraph [ref=e492]: Besoin d’aide ?
+            - paragraph [ref=e493]: Nous répondons à vos questions
+        - button "engagements.svg Nos engagements + Proche, - Cher" [ref=e494] [cursor=pointer]:
+          - generic [ref=e495]:
+            - img "engagements.svg" [ref=e497]
+            - paragraph [ref=e498]: Nos engagements
+            - paragraph [ref=e499]: + Proche, - Cher
+      - generic [ref=e504]:
+        - generic [ref=e505]:
+          - paragraph [ref=e506]: L'entreprise Rent A Car
+          - link "Nous connaître" [ref=e508] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/nous-connaitre
+          - generic [ref=e509] [cursor=pointer]: Nous rejoindre
+          - link "Le groupe Rent A Car" [ref=e511] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/groupe/116-valeurs-rentacar
+          - link "Espace presse" [ref=e513] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/presse
+          - link "Développement durable" [ref=e515] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/utiles/7-developpement-durable
+        - generic [ref=e516]:
+          - paragraph [ref=e517]: Partenaires
+          - link "LNB" [ref=e519] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/partenaires/ligue-nationale-de-basket
+          - link "Un Rien C’est Tout" [ref=e521] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/partenaires/un-rien-cest-tout
+          - link "Centre Pompidou" [ref=e523] [cursor=pointer]:
+            - /url: https://www.centrepompidou.fr/fr/
+          - link "France Stage Permis" [ref=e525] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/partenaires/france-stage-permis
+          - link "Hôtel Marseille" [ref=e527] [cursor=pointer]:
+            - /url: https://www.hotel-residence-marseille.com/fr/
+        - generic [ref=e528]:
+          - paragraph
+          - link "Location voiture Lyon" [ref=e530] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/399-lyon-gare-part-dieu
+          - link "Location voiture Marseille" [ref=e532] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/199-marseille-gare-st-charles
+          - link "Location voiture Bordeaux" [ref=e534] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/160-bordeaux-gare
+          - link "Location voiture Nice" [ref=e536] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/120-nice-gare
+          - link "Location voiture Toulouse" [ref=e538] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/497-toulouse-gare
+        - generic [ref=e539]:
+          - paragraph
+          - link "Location voiture Montpellier" [ref=e541] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/79-montpellier-pres-darenes
+          - link "Location voiture Strasbourg" [ref=e543] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/482-strasbourg-gare
+          - link "Location voiture Lille" [ref=e545] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/150-lille-centre-proche-gare
+          - link "Location voiture Nantes" [ref=e547] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/541-nantes-gare
+          - link "Location voiture Grenoble" [ref=e549] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/38-grenoble-gare
+        - generic [ref=e550]:
+          - paragraph
+          - link "Location d'utilitaire à Paris" [ref=e552] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/v/paris-utilitaire-75056
+          - link "Location voiture Perpignan" [ref=e554] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/265-perpignan-centre
+          - link "Location voiture Rennes" [ref=e556] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/483-rennes-gare
+          - link "Location voiture Rouen" [ref=e558] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/69-rouen
+          - link "Location voiture Nîmes" [ref=e560] [cursor=pointer]:
+            - /url: https://www.rentacar.fr/agences/253-nimes
+        - generic [ref=e562]:
+          - generic [ref=e563]:
+            - button "Instagram" [ref=e564] [cursor=pointer]:
+              - img [ref=e565]
+            - button "Facebook" [ref=e568] [cursor=pointer]:
+              - img [ref=e569]
+            - button "LinkedIn" [ref=e575] [cursor=pointer]:
+              - img [ref=e576]
+            - button "Twitter" [ref=e582] [cursor=pointer]:
+              - img [ref=e583]
+          - img [ref=e589]
+      - generic [ref=e614]:
+        - link "Mentions légales" [ref=e615] [cursor=pointer]:
+          - /url: https://www.rentacar.fr/utiles/55-mentions-legales
+        - link "Conditions Générales" [ref=e616] [cursor=pointer]:
+          - /url: https://www.rentacar.fr/utiles/conditions-generales
+        - link "CGU" [ref=e617] [cursor=pointer]:
+          - /url: https://www.rentacar.fr/images/cms_uploaded/cgu/cgu_rentacar_janvier2023.pdf
+        - link "Informations générales" [ref=e618] [cursor=pointer]:
+          - /url: https://rac-production-strapi-uploads.s3.eu-west-3.amazonaws.com/Informations_Generales_et_Tarifaires_Services_additionnels_Complements_de_protection_Frais_annexes_01_04_2026_26bd0ea18b.pdf
+        - link "Déclaration de confidentialité" [ref=e619] [cursor=pointer]:
+          - /url: https://www.rentacar.fr/utiles/56-declaration-de-confidentialite
+        - link "Conditions des offres" [ref=e620] [cursor=pointer]:
+          - /url: https://www.rentacar.fr/utiles/conditions-des-offres
+        - button "Droit d'opposition au démarchage téléphonique" [ref=e621] [cursor=pointer]
+        - button "Cookies" [ref=e622] [cursor=pointer]
+  - alert [ref=e623]
